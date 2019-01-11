@@ -11,7 +11,7 @@ for a in range(2,100):
             b[c-2] += 1
 a = 0
 while a < len(b):
-    print(a+2, ' - ', b[a])
+    #print(a+2, ' - ', b[a])
     a += 1
 cProfile.run('Main()') 
                  
